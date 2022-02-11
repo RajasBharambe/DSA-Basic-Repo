@@ -19,7 +19,7 @@ void bubbleSort(int a[])
 
 int main()
 {
-  cout<<"SCOB-78_Rajas Bharambe\n"<<endl;
+  cout<<"Rajas Bharambe\n"<<endl;
   int myarray[5];
   int size;
   cout << "Enter 5 integers in any order: " << endl;
