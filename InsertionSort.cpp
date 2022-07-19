@@ -46,5 +46,5 @@ int main()
   {
     cout << myarray[i] << "  ";
   }
- 
+ return 0;
 }
