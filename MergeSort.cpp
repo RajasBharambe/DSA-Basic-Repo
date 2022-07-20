@@ -75,5 +75,5 @@ int main()
     {
         cout << myarr[i] << " ";
     }
-    r
+    return 0;
 }
