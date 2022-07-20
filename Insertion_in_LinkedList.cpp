@@ -81,5 +81,5 @@ int main()
     printList(Second);
     printList(Third);
 
-    system("pause>0");
+    system("pause>10");
 }
