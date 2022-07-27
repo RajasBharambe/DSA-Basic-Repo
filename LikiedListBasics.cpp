@@ -18,7 +18,7 @@ int main()
     // Adding data and setting link to NULL
     ptr->data = 2;
     ptr->link = NULL;
-
+    // Pointing head to created Node
     head = ptr;
     cout << "data is" << head->data<<" ";
     return 0;
