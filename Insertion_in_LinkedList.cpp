@@ -3,11 +3,7 @@
 using namespace std;
 
 class Node
-{
-public:
-    int Value;
-    Node *Next;
-};
+
 
 void printList(Node *n)
 { // Passing a linked COMET to a Function.
