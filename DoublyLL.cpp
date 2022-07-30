@@ -24,6 +24,18 @@ public:
 
 };
 
+class DoubleLinkedList{
+    public:
+    Node* head;  // head pointer points to first node
+
+    DoubleLinkedList()
+    {
+        head = NULL;
+    }
+    DoubleLinkedList(Node *n)
+    {
+        head = n;
+    }
 
     /// check if node exists using key value
     
