@@ -56,9 +56,4 @@ class DoubleLinkedList{
     }
 
 };
-int main()
-{
-    DoubleLinkedList();
-    
-    return 0;
-}
+
