@@ -2,7 +2,8 @@
 using namespace std;
 
 void ShellSort(int arr[], int n)
-
+{
+    for (int gap = n / 2; gap > 0; gap /= 2)
     {
         for (int j = gap; j < n; j += 1)
         {
