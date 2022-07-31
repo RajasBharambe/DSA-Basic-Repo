@@ -10,14 +10,7 @@ void ShellSort(int arr[], int n)
             int temp = arr[j];
             int i = 0;
 
-            for (i = j; (i >= gap) && (arr[i - gap] > temp); i -= gap)
-            {
-                arr[i] = arr[i - gap];
-            }
-            arr[i] = temp;
-        }
-    }
-}
+
 
 int main()-
 {
