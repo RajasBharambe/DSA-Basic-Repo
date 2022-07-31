@@ -35,18 +35,3 @@ int main()
     {
         cout << arr1[i] << " ";
     }
-
-    cout << endl
-         << "Shell Sort";
-
-    ShellSort(arr1, n); // calling the function
-
-    cout << endl
-         << "After Sorting: " << endl;
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr1[i] << " ";
-    }
-
-    return 0;
-}
