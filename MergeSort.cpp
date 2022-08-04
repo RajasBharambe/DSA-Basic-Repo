@@ -4,7 +4,10 @@ using namespace std;
 
 // merge function
 void merge(int arr[], int l, int m, int r)
-
+{
+    int i = l;     // starting index of left sub array
+    int j = m + 1; // starting index of right sub array
+    int k = l;     // starting index of temporary array
 
     int temp[5];
 
