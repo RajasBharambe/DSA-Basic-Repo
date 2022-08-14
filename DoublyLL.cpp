@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
- xs
+
 class Node
 {
 public:
