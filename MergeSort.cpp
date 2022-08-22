@@ -1,6 +1,4 @@
-#include <iostream>
 
-using namespace std;
 
 // merge function
 void merge(int arr[], int l, int m, int r)
