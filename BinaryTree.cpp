@@ -6,7 +6,7 @@ of linked nodes. */
 
 using namespace std;
 
-class TreeNode
+class TreeNode 
 {
 public:
   int value;
