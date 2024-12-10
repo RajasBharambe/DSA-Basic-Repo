@@ -6,7 +6,7 @@ class Node
 {
 public:
     int Value;
-    Node *Next;
+    Node *Next; 
 };
 
 void printList(Node *n)
