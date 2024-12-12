@@ -42,3 +42,5 @@ erase(),
 
 6. To cancel out the duplicates in an array, use the XOR (^) concept.
 
+7. For any variables whichever you create, it will akways take O(1) space complexity. Space Complexity deals with the memory consumption.
+
