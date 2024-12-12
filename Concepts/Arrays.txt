@@ -1,0 +1,44 @@
+1. To extract indiviual digits from numbers in an array use the concept of Modulo and Division Operation as;
+  % = to get the last digit.
+  / = to remove the last digit
+After performing this, it will be in reverse order so use a for loop to get it correct.
+
+example: int digit = number % 10;
+         arr.push_back(digit);
+         number = number / 10;
+
+         for(i = digits.size() - 1; i>= 0; i--){
+          }
+
+2. Use of sets: Use sets where their is mentioned as Distict number of...., or any distict keyword in problem statement. The operations performed on sets are:
+
+set<int> v;
+v.insert(pos, val);              // Insert single element 
+v.insert(pos, n, val);         // Insert multiple copies of an element
+v.insert(pos, first, last);   // Insert range of elements 
+  
+3. for getting Maximum or Minimum operations in array do like this :
+
+ int maxi = INT_MIN;
+ int mini = INT_MAX;
+ for(i--->n) {
+  if(arr[i] > maxi) cout << "Maximum number" << endl;
+  else if(arr[i] < mini) cout << "Minimum number" << endl;
+ }
+
+4. Some important functions in C++ are:
+
+floor(number),
+reverse(v.begin(), v.end()),
+sqrt(number),
+
+5. Some important functions in vectors:
+
+empty(),
+front(), // returns first element of vector
+back(), // returns last element of vector
+insert(),
+erase(),
+
+6. To cancel out the duplicates in an array, use the XOR (^) concept.
+
