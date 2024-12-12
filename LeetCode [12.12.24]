@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+
+// int largestPile(vector<int> arr, int k){
+//     for(int i = 0; i<k; i++){
+//         int maxi = INT_MIN;
+//         int index = 0;
+
+//         for(int i = 0; i<arr.size(); i++){
+//             if(arr[i] > maxi){
+//                 maxi = arr[i];
+//                 index = i;
+//             }
+//         }
+//         arr[index] = floor(sqrt(maxi));
+//     }
+
+//     int sum = 0;
+//     for(int i = 0; i<arr.size(); i++){
+//         sum += arr[i];
+//     }
+
+//     return sum;
+
+vector<int> seperateDigitsFromArray(vector<int> arr){
+    vector<int> ans;
+
+    int digit = 0;
+
+
+
+    for(int i = 0; i<arr.size(); i++){
+        while(arr[i] > 0){
+            digit = arr[i] % 10;
+            ans.push_back(digit);
+            arr[i] = arr[i] / 10;
+        }
+    }
+
+    for(int i = ans.size() - 1; i>=0; i--){
+        ans.push_back(digit);
+    }
+
+    return ans;
+}
+
+}
+
+
+int main() {
+    cout<<"Hello World!";
+}
