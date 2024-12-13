@@ -4,7 +4,7 @@ using namespace std;
 void insertionSort(int arr[])
 {
   int j = 0;
-  int key;
+  int key; 
 
   for (int i = 1; i < 10; i++)
   {
